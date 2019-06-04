@@ -8,7 +8,7 @@ import android.view.ViewGroup
 
 class BibekAdapter(conText:Context) : RecyclerView.Adapter<BibekAdapter.MyViewHolder>(), Parcelable {
     private val mContext:Context
-    
+
 
     init{
         this.mContext=conText
